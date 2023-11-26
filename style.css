@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+.sidebar {
+    z-index: 2;
+    display: block;
+    position: fixed;
+}
+
+.dimmer {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    background-color: black;
+}
+
+.placeholder {
+    
+}
+
+.mennubar {
+    position: fixed;
+}
