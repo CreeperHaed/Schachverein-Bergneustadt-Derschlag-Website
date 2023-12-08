@@ -7,6 +7,8 @@
     z-index: 2;
     display: block;
     position: fixed;
+    height: 100%;
+    transition: all 0.5s ease;
 }
 
 .dimmer {
@@ -15,14 +17,34 @@
     position: fixed;
     height: 100%;
     width: 100%;
-    opacity: 50%;
+    opacity: 0%;
     background-color: black;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.active {
+    opacity: 50%;
+    pointer-events: all;
 }
 
 .placeholder {
     
 }
 
-.mennubar {
+.menubar {
+    height: 70px;
+}
+
+.menubar>ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
     position: fixed;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.menubar>ul>li {
+
 }
