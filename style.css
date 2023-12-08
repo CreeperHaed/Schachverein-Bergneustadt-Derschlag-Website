@@ -23,7 +23,7 @@
     pointer-events: none;
 }
 
-.active {
+.dimmer.active {
     opacity: 50%;
     pointer-events: all;
 }
